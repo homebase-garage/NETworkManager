@@ -15,7 +15,7 @@
         <summary type="html"><![CDATA[NETworkManager introduces the new Firewall feature. View, add, edit, enable, disable, and delete Windows Firewall rules managed by NETworkManager — all from a user-friendly interface.]]></summary>
         <content type="html"><![CDATA[<p>NETworkManager introduces a new feature, the <code>Firewall</code>. You can now manage Windows Firewall rules created by NETworkManager directly from within the app — no more jumping between MMC snap-ins for day-to-day tasks.</p>
 <p>This is especially useful if you frequently spin up local services (lab environments, dev boxes, game servers, small internal tools) and need a quick and repeatable way to open or block ports, restrict traffic to specific IP ranges, or scope rules to profiles like <strong>Domain</strong>, <strong>Private</strong>, or <strong>Public</strong>.</p>
-<p><img decoding="async" loading="lazy" alt="Firewall" src="https://borntoberoot.net/NETworkManager/assets/images/firewall-60745bd5d0bd03463c3f28624ff42348.png" width="1200" height="800" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Firewall" src="https://borntoberoot.net/NETworkManager/assets/images/firewall-2a1385544d4bbc7cca17102777e39c56.png" width="1200" height="800" class="img_ev3q"></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="manage-rules-safely-and-without-touching-your-system-rules">Manage rules safely (and without touching your system rules)<a href="https://borntoberoot.net/NETworkManager/blog/introducing-firewall#manage-rules-safely-and-without-touching-your-system-rules" class="hash-link" aria-label="Direct link to Manage rules safely (and without touching your system rules)" title="Direct link to Manage rules safely (and without touching your system rules)" translate="no">​</a></h2>
 <p>The Firewall view intentionally focuses on rules managed by NETworkManager only.</p>
 <p>Every rule created via NETworkManager is stored with a <code>NETworkManager_</code> prefix in the Windows Firewall rule display name. This makes it easy to distinguish "your" rules from system-managed or third-party rules — and it allows NETworkManager to filter the list so you only see what it owns.</p>
@@ -32,7 +32,7 @@
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="add--edit-rules--with-the-options-you-actually-need">Add / Edit rules — with the options you actually need<a href="https://borntoberoot.net/NETworkManager/blog/introducing-firewall#add--edit-rules--with-the-options-you-actually-need" class="hash-link" aria-label="Direct link to Add / Edit rules — with the options you actually need" title="Direct link to Add / Edit rules — with the options you actually need" translate="no">​</a></h2>
 <p>When creating or editing a rule, NETworkManager exposes the most common and important fields in a clear dialog:</p>
-<p><img decoding="async" loading="lazy" alt="Add rule" src="https://borntoberoot.net/NETworkManager/assets/images/firewall-rule-41e929868ed7df5bcd4fb9e97c5899ca.png" width="1200" height="800" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Add rule" src="https://borntoberoot.net/NETworkManager/assets/images/firewall-rule-12b3f6fe13755dde1fa4af8d9e9a8f86.png" width="1200" height="800" class="img_ev3q"></p>
 <ul>
 <li class=""><strong>Name</strong>: Display name of the rule (the <code>NETworkManager_</code> prefix is added automatically and hidden in the UI)</li>
 <li class=""><strong>Enabled</strong>: Whether the rule is active right after creation</li>
